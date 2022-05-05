@@ -1,0 +1,16 @@
+## Install:
+
+mkdir build
+cd build
+cmake ../
+make
+
+
+
+## EXAMPLE
+
+cd ../test/
+../build/etching_bench -c test.conf
+
+
+
