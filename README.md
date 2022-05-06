@@ -2,13 +2,19 @@
 
 ### Version 0.2.12
 
-This program is a benchmarking tool implementing SURVIVOR for somatic structural variation (SV) callers. 
+This program, ```etching_bench```, is a benchmarking tool implementing SURVIVOR for somatic structural variation (SV) callers. 
 
 ##### Supporting SV callers
 
 * ETCHING, DELLY, LUMPY, Manta, SvABA, novoBreak, and GRIDSS
 
-**Note**: This is not a general-purpose tool. We did not check other callers.
+**Note**: This is not a general-purpose tool. We did not check on other callers yet.
+
+
+
+##### Silver-standard
+
+It calculates performances of SV callers in a silver-standard manner, a kind of majority vote, because of a lack of a golden-standard SV set. Our silver-standard calls the SVs predicted by N *other callers* as TRUE (3 for 7 callers in default). It means ETCHING's silver-standard has no ETCHING, and there is no DELLY in DELLY's silver-standard, and so on. If you include the target tool (using ```-K```), it may cause a bias toward a tool of very high sensitivity with very low precision. Thus, we do not recommend it but keep the default (```-X``` to specify it).
 
 
 
@@ -147,10 +153,6 @@ etching_bench -c input.conf [-o output_prefix] [options]
 	--inter    Only inter-chromosomal SVs (TRA)
 
 
-
-##### About silver-standard
-
-Our silver-standard calls the SVs predicted by N (3 in default) *other callers* as TRUE. It means ETCHING's silver-standard has no ETCHING, and there is no DELLY in DELLY's silver-standard, and so on. If you include the target tool (using ```-K```), it may cause a bias toward a tool of very high sensitivity with very low precision. Thus, we do not recommend it but keep the default (```-X``` to specify it).
 
 
 
