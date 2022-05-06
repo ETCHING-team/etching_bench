@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.11)
 set(CMAKE_CXX_STANDARD 11)
 
 project(etching_bench
-  VERSION 0.2.11
+  VERSION 0.2.12
   DESCRIPTION "Benchmarking program for ETCHING project"
   LANGUAGES CXX)
 

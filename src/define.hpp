@@ -2,14 +2,14 @@
  * @file define.hpp
  * @author Jang-il Sohn (sohnjangil@gmail.com)
  * @brief 
- * @version 0.2.11
- * @date 2022-04-29
+ * @version 0.2.12
+ * @date 2022-05-06
  * 
  * @copyright Copyright (c) 2022
  * 
  */
 #define PROGRAM_NAME "etching_bench"
-#define PROGRAM_VERSION "0.2.11"
+#define PROGRAM_VERSION "0.2.12"
 
 #define DEFAULT_PREFIX PROGRAM_NAME
 

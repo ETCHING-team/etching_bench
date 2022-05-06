@@ -3,8 +3,8 @@
  * @author Jang-il Sohn (sohnjangil@gmail.com)
  * @brief A program for preparing vcf files for benchmarking 
  * @brief This program supports ETCHING, DELLY, LUMPY, Manta, SvABA, novoBreak, and GRIDSS.
- * @version 0.2.11
- * @date 2022-04-29
+ * @version 0.2.12
+ * @date 2022-05-06
  * 
  * @copyright Copyright (c) 2022
  * 

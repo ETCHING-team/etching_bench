@@ -2,8 +2,8 @@
  * @file args.cpp
  * @author Jang-il Sohn (sohnjangil@gmail.com)
  * @brief
- * @version 0.2.11
- * @date 2022-04-29
+ * @version 0.2.12
+ * @date 2022-05-06
  *
  * @copyright Copyright (c) 2022
  *
@@ -62,7 +62,6 @@ void USAGE(){
 	    << "\t-o STR     Outfile prefix [etching_bench]\n"
 	    << "\t-s INT     Consensus cutoff for silver standard [" << CONSENSUS_CUTOFF << "]\n"
 	    << "\t           TRUE if detected by >=3 (in default) callers.\n"
-	    << "\t-t FILE    Truth set\n"
 	    << "\t-w INT     Merge window size [" << MERGE_WINDOW << "]\n"
 	    << "\t-m INT     Minimun SV size [" << MIN_SV_SIZE <<"]\n"
 	    << "\t-M INT     Maximum SV size\n"
