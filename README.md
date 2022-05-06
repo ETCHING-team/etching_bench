@@ -6,7 +6,13 @@ This program, ```etching_bench```, is a benchmarking tool implementing SURVIVOR 
 
 ##### Supporting SV callers
 
-* ETCHING, DELLY, LUMPY, Manta, SvABA, novoBreak, and GRIDSS
+* ETCHING https://github.com/ETCHING-team/ETCHING.git
+* DELLY https://github.com/dellytools/delly.git
+* LUMPY https://github.com/arq5x/lumpy-sv.git
+* Manta https://github.com/Illumina/manta.git
+* SvABA https://github.com/walaj/svaba.git
+* novoBreak https://sourceforge.net/projects/novobreak/?source=updater
+* GRIDSS https://github.com/PapenfussLab/gridss.git
 
 **Note**: This is not a general-purpose tool. We did not check on other callers yet.
 
